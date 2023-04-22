@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "completoarticulos",
+  "info": {
+    "singularName": "completoarticulo",
+    "pluralName": "completoarticulos",
+    "displayName": "completoarticulo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
